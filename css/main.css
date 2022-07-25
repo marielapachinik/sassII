@@ -1,0 +1,299 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px; }
+
+/*Titulo de encabezado */
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black; }
+
+section {
+  color: black; }
+
+body {
+  min-height: 50vh; }
+
+/* Encabezado */
+.navbar {
+  height: 60px !important;
+  border: solid 2px darkred !important;
+  background-color: black !important; }
+
+.nav-item {
+  font-size: x-large;
+  background-color: black !important; }
+
+.nav-link {
+  background-color: black !important; }
+
+span {
+  display: flex !important;
+  justify-content: flex-start !important; }
+
+.dropdown-item {
+  background-color: black !important;
+  font-size: x-large;
+  color: white !important; }
+
+.dropdown {
+  background-color: black !important; }
+
+/* Imagen del logo */
+.img_logo {
+  text-align: center; }
+
+/*Pie de pagina */
+footer .footer__lista {
+  margin: 0 auto;
+  width: auto;
+  background-color: black;
+  list-style: none;
+  /* contenedor flex */
+  height: 50px;
+  border: solid 3px darkred;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* direccionar la posicion el contenido */
+  align-items: center; }
+  footer .footer__lista__lista__item {
+    margin-left: 2%;
+    font-size: x-large; }
+    footer .footer__lista__lista__item a {
+      text-decoration: none;
+      font-size: x-large;
+      color: white;
+      display: inline-block; }
+
+/* Fondo de html*/
+.body-index {
+  min-height: 50vh;
+  background-image: url("../imagenes/fondo.bmp");
+  font-family: 'Times New Roman', Times, serif; }
+
+/*Falso carrousel*/
+.falsocarrousel {
+  width: 20%;
+  height: 300px;
+  margin-top: 4%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+  align-items: center;
+  background-image: url(../imagenes/mundos-posibles3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: carrousel 8s  10; }
+
+@keyframes carrousel {
+  0% {
+    background-image: url(../imagenes/mundos-posibles.png); }
+  25% {
+    background-image: url(../imagenes/de-ausencias.jpg); }
+  50% {
+    background-image: url(../imagenes/en-viaje3.jpg); }
+  75% {
+    background-image: url(../imagenes/mundos-posibles3.jpg); }
+  100% {
+    background-image: url(../imagenes/de-ausencias3.jpg); } }
+
+@keyframes carrousel {
+  0% {
+    background-image: url(../imagenes/mundos-posibles3.png); }
+  25% {
+    background-image: url(../imagenes/de-ausencias3.jpg); }
+  50% {
+    background-image: url(../imagenes/en-viaje3.jpg); }
+  75% {
+    background-image: url(../imagenes/mundos.posibles3.jpg); }
+  100% {
+    background-image: url(../imagenes/de-ausencias3.jpg); } }
+
+.imagen__libro {
+  align-items: left;
+  margin-left: 20%;
+  margin-top: 7%;
+  margin-bottom: 6.5%; }
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+  /* Acceso directo al libro mas leido */
+  .imagen__libro {
+    align-items: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%; } }
+
+@media screen and (min-width: 600px) {
+  .imagen__libro {
+    display: none; } }
+
+/* Contenido html "Biografia" */
+.body-general {
+  background-color: peachpuff;
+  color: darkred;
+  font-family: 'Times New Roman', Times, serif; }
+
+.h1_biografia {
+  font-size: x-large;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.imagen-biografia {
+  float: left;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 1%;
+  width: 240;
+  height: 240;
+  margin-left: 3%; }
+
+.parrafo__biografia {
+  font-size: medium;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 1%; }
+
+.parrafo3__biografia {
+  font-size: medium;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 4%; }
+
+/* Contenido del html "Libros */
+.titulo__libros {
+  font-size: x-large;
+  text-align: center;
+  margin-left: -10%;
+  margin-top: 1%;
+  margin-bottom: 2%; }
+
+/* Card de Libros */
+.card {
+  background-color: peachpuff !important;
+  z-index: initial;
+  margin-top: -1.5% !important;
+  margin-bottom: 8vh !important;
+  border: none !important;
+  font-family: 'Times New Roman', Times, serif; }
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+  .lista__libros {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; } }
+
+/*Fondo de pagina Index y contacto */
+.background-index-contacto {
+  background-image: url("./imagenes/fondo.bmp");
+  font-family: 'Times New Roman', Times, serif; }
+
+/* Contenido html "Contacto" */
+.titulo__contacto {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 2%; }
+
+.titulo__contacto {
+  font-size: xx-large;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  margin-bottom: 1%; }
+
+.formulario {
+  width: fit-content !important;
+  margin-left: 2% !important;
+  margin-top: -0.2% !important; }
+
+/* Contenido html "Mundos posibles" */
+* {
+  margin: 0;
+  padding: 0; }
+
+.background-reseña {
+  background-image: url("../imagenes/flor-libro2.jpg");
+  font-family: 'Times New Roman', Times, serif; }
+
+.titulo__mundos {
+  float: left;
+  margin-top: 10%;
+  margin-bottom: -2%;
+  margin-left: 3%;
+  padding-top: 2px;
+  align-items: flex-end; }
+
+.imagen_principal_mundos {
+  float: left;
+  padding-top: 3px;
+  padding-right: 20px;
+  width: 240;
+  height: 240;
+  margin-left: 3%; }
+
+.parrafo_mundos {
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  padding-bottom: 1.5%;
+  align-items: flex-end; }
+
+.background-reseña {
+  background-image: url("../imagenes/flor-libro2.jpg");
+  font-family: 'Times New Roman', Times, serif; }
+
+/* Contenido html "De Ausencias" */
+.titulo__ausencias {
+  float: left;
+  margin-top: 12%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  padding-top: 2px;
+  align-items: flex-end; }
+
+.imagen_principal_ausencias {
+  float: left;
+  padding-top: 2px;
+  padding-right: 20px;
+  width: 240;
+  height: 240;
+  margin-left: 3%;
+  margin-top: 1.5%; }
+
+.parrafo_ausencias {
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  margin-left: 3%;
+  padding-bottom: 6.5%;
+  align-items: flex-end; }
+
+.background-reseña {
+  background-image: url("../imagenes/flor-libro2.jpg");
+  font-family: 'Times New Roman', Times, serif; }
+
+/*Contenido html "En Viaje" */
+.imagen_principal_viaje {
+  float: left;
+  padding-top: 2%;
+  padding-right: 20px;
+  width: 240;
+  height: 240;
+  margin-left: 3%; }
+
+.parrafo_viaje {
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 4.5%;
+  margin-left: 3%;
+  padding-bottom: 5%;
+  align-items: flex-end; }
