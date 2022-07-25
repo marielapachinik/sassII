@@ -1,0 +1,65 @@
+
+%boton{
+    width: fit-content;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+%flexRowSpaceEvenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Mixins */
+
+@mixin boton ($bgColor, $textColor){
+    width: fit-content;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: $bgColor;
+    color: $textColor;
+}
+
+@mixin flex($direction, $justify, $align, $wrap){
+    display: flex;
+    flex:{
+        direction: $direction;
+        wrap: $wrap;
+    };
+    align-items: $align;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin mediaQuery ($pantalla){
+    @if $pantalla == 'mobile'{
+        @media screen and (max-width: 320px){
+            @content
+        }
+    };
+    @if $pantalla == 'tablet' {
+        @media screen and (max-width: 720px){
+            @content
+        }
+    };  
+}
+/* Diferentes operadores comparativos
+
+== : cuando sea igual.
+!= : cuando sea distinto.
+<= : menor o igual.
+>= : mayor o igual que.
+*/
+
+@mixin FlexboxWidth ($width){
+    display: flex;
+    width: $width;
+
+    @if $width >= 50%{
+        justify-content: center;
+    } @else{
+        justify-content: space-evenly;
+    }
+}
