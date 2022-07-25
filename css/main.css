@@ -205,9 +205,9 @@ footer .footer__lista {
 
 .titulo__contacto {
   font-size: xx-large;
-  margin-top: 1.5%;
+  margin-top: 3% !important;
   margin-left: 2%;
-  margin-bottom: 1%; }
+  margin-bottom: 2% !important; }
 
 .formulario {
   width: fit-content !important;
