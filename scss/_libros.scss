@@ -1,0 +1,39 @@
+/* Contenido del html "Libros */
+
+.titulo__libros{
+    font-size: x-large;
+    text-align: center;
+    margin-left: -10%;
+    margin-top:1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+/* Card de Libros */
+
+.card{
+    background-color:map-get($colores, "color-principal") !important;
+    z-index:initial;
+    margin-top: -1.5% !important;
+    margin-bottom: 8vh !important;
+    border:none !important;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Media queries */
+
+
+@media screen and (max-width:600px){
+
+   
+    .lista__libros{
+        width: auto;
+        height: auto;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+}

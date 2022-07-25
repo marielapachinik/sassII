@@ -1,0 +1,45 @@
+
+/* Contenido html "Biografia" */
+
+
+.body-general{
+    background-color: map-get($colores, "color-principal");
+    color:map-get($colores,"color-secundario");
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.h1_biografia{
+    font-size: x-large;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.imagen-biografia{
+    float:left;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 1%;
+    width: 240;
+    height: 240;
+    margin-left: 3%;
+}
+
+.parrafo__biografia{
+    font-size: medium;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    
+
+}
+.parrafo3__biografia{
+    font-size: medium;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 4% ;
+
+}

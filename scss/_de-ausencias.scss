@@ -1,0 +1,42 @@
+
+
+.background-reseña{
+    background-image: url("../imagenes/flor-libro2.jpg");
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+
+/* Contenido html "De Ausencias" */
+
+.titulo__ausencias{
+    float:left;
+    margin-top:12%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    padding-top: 2px;
+    align-items: flex-end;
+
+}
+
+.imagen_principal_ausencias{
+    float:left;
+    padding-top: 2px;
+    padding-right: 20px;
+    width: 240;
+    height: 240;
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+
+
+.parrafo_ausencias{
+    font-size: large;
+    margin-top:2%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    padding-bottom: 6.5%;
+    align-items: flex-end;
+    
+}

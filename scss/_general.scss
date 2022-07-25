@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size:16px;
+}
+
+    
+
+
+/*Titulo de encabezado */
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:black
+}
+
+section{
+    color: black;
+}
+
+
+
+body{
+    min-height: 50vh;
+    
+}
+
+
+/* Encabezado */
+
+
+.navbar{
+    height: 60px !important;
+    border:solid 2px darkred !important;
+    background-color: black !important;
+}
+
+.nav-item{
+    font-size: x-large;
+    background-color: black !important;
+    
+}
+
+.nav-link{
+    background-color: black !important;
+}
+
+span{
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+.dropdown-item{
+    background-color: black !important;
+    font-size: x-large;
+    color: white !important;
+}
+
+.dropdown{
+    
+
+    background-color: black !important;
+}
+
+
+
+/* Imagen del logo */
+
+.img_logo{
+    text-align: center;
+
+}
+
+
+/*Pie de pagina */
+
+footer{
+    .footer__lista{
+    
+        margin: 0 auto;
+        width: auto;
+        background-color: black;
+        list-style: none;
+    
+        /* contenedor flex */
+        height: 50px;
+        border: solid 3px darkred;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; /* direccionar la posicion el contenido */
+        align-items: center;
+    
+        &__lista__item{
+            margin-left: 2%;
+            font-size: x-large; 
+    
+            a{
+                text-decoration: none;
+                font-size: x-large;
+                color:white;
+                display: inline-block;
+        
+            }
+        }
+        
+    }
+    
+
+}
+
+
+
+
+
+
+
+    
+    
+    
+

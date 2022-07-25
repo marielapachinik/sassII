@@ -1,0 +1,46 @@
+
+
+/* Contenido html "Mundos posibles" */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background-reseña{
+    background-image: url("../imagenes/flor-libro2.jpg");
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.titulo__mundos{
+    float:left;
+    margin-top:10%;
+    margin-bottom:-2%;
+    margin-left: 3%;
+    padding-top: 2px;
+    align-items: flex-end;
+
+}
+
+
+
+.imagen_principal_mundos{
+    float:left;
+    padding-top: 3px;
+    padding-right: 20px;
+    width: 240;
+    height: 240;
+    margin-left: 3%;
+}
+
+.parrafo_mundos{
+    font-size: large;
+    margin-top:2%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    padding-bottom: 1.5%;
+    align-items: flex-end;
+}
