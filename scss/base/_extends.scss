@@ -1,8 +1,8 @@
 
-%boton{
-    width: fit-content;
-    padding: 15px;
-    border-radius: 6px;
+%btn-rese{
+    width: fit-content !important;
+    padding: 15px !important;
+    border-radius: 6px !important;
 }
 
 %flexRowSpaceEvenly{
@@ -14,7 +14,7 @@
 
 /* Mixins */
 
-@mixin boton ($bgColor, $textColor){
+@mixin btn-rese ($bgColor, $textColor){
     width: fit-content;
     padding: 15px;
     border-radius: 6px;
@@ -22,16 +22,7 @@
     color: $textColor;
 }
 
-@mixin flex($direction, $justify, $align, $wrap){
-    display: flex;
-    flex:{
-        direction: $direction;
-        wrap: $wrap;
-    };
-    align-items: $align;
-    justify-content: $justify;
-    align-items: $align;
-}
+
 
 @mixin mediaQuery ($pantalla){
     @if $pantalla == 'mobile'{
