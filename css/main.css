@@ -295,3 +295,7 @@ footer .footer__lista {
   margin-left: 3%;
   padding-bottom: 5%;
   align-items: flex-end; }
+
+.background-libro {
+  font-family: "Times New Roman";
+  background-image: 'url("../imagenes/flor-libro2.jpg")'; }
