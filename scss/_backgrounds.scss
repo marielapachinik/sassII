@@ -1,6 +1,6 @@
 @import './base/extends';
 
 .background-libro{
-    @include background-reseña('url("../imagenes/flor-libro2.jpg")', 'Times New Roman');
+    @include background-reseña("../imagenes/flor-libro2.jpg", 'Times New Roman');
 
 }

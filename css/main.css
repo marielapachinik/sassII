@@ -298,4 +298,4 @@ footer .footer__lista {
 
 .background-libro {
   font-family: "Times New Roman";
-  background-image: 'url("../imagenes/flor-libro2.jpg")'; }
+  background: "../imagenes/flor-libro2.jpg"; }
