@@ -62,33 +62,3 @@
 }
 
 
-/* Media queries */
-
-
-@media screen and (max-width:600px){
-
-    .falsocarrousel{
-        display:none;
-    }
-
-   
-
-
-    /* Acceso directo al libro mas leido */
-
-    .imagen__libro{
-        align-items: left;
-        margin-left: 20%;
-        margin-top: 10%;
-        margin-bottom:10%;   
-    }
-}   
-
-@media screen and (min-width:600px){
-
-    .imagen__libro{
-        display:none
-    }
-
-
-}

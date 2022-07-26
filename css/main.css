@@ -111,21 +111,6 @@ footer .footer__lista {
   margin-top: 7%;
   margin-bottom: 6.5%; }
 
-/* Media queries */
-@media screen and (max-width: 600px) {
-  .falsocarrousel {
-    display: none; }
-  /* Acceso directo al libro mas leido */
-  .imagen__libro {
-    align-items: left;
-    margin-left: 20%;
-    margin-top: 10%;
-    margin-bottom: 10%; } }
-
-@media screen and (min-width: 600px) {
-  .imagen__libro {
-    display: none; } }
-
 /* Contenido html "Biografia" */
 .h1_biografia {
   font-size: x-large;
@@ -172,15 +157,6 @@ footer .footer__lista {
   margin-bottom: 8vh !important;
   border: none !important;
   font-family: 'Times New Roman', Times, serif; }
-
-/* Media queries */
-@media screen and (max-width: 600px) {
-  .lista__libros {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; } }
 
 /*Fondo de pagina Index y contacto */
 .background-index-contacto {
@@ -295,3 +271,26 @@ footer .footer__lista {
 .background-catalogo {
   font-family: Times New Roman;
   background: #ffdab9; }
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+  .falsocarrousel {
+    display: none; }
+  /* Acceso directo al libro mas leido */
+  .imagen__libro {
+    align-items: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%; } }
+
+@media screen and (min-width: 600px) {
+  .imagen__libro {
+    display: none; } }
+
+@media screen and (max-width: 600px) {
+  .lista__libros {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; } }
