@@ -1,56 +1,6 @@
-
-%btn-rese{
-    width: fit-content !important;
-    padding: 15px !important;
-    border-radius: 6px !important;
+@mixin background-reseña ($image, $font) {
+    font-family:$font;
+    background-image: $image;
+  
 }
 
-%flexRowSpaceEvenly{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-/* Mixins */
-
-@mixin btn-rese ($bgColor, $textColor){
-    width: fit-content;
-    padding: 15px;
-    border-radius: 6px;
-    background-color: $bgColor;
-    color: $textColor;
-}
-
-
-
-@mixin mediaQuery ($pantalla){
-    @if $pantalla == 'mobile'{
-        @media screen and (max-width: 320px){
-            @content
-        }
-    };
-    @if $pantalla == 'tablet' {
-        @media screen and (max-width: 720px){
-            @content
-        }
-    };  
-}
-/* Diferentes operadores comparativos
-
-== : cuando sea igual.
-!= : cuando sea distinto.
-<= : menor o igual.
->= : mayor o igual que.
-*/
-
-@mixin FlexboxWidth ($width){
-    display: flex;
-    width: $width;
-
-    @if $width >= 50%{
-        justify-content: center;
-    } @else{
-        justify-content: space-evenly;
-    }
-}
