@@ -1,6 +1,26 @@
 @import './base/extends';
 
 .background-libro{
-    @include background-reseña("../imagenes/flor-libro2.jpg", 'Times New Roman');
+    @include background(url("../imagenes/flor-libro2.jpg"), Times New Roman);
+
+}
+
+.background-index{
+    @include background(url("../imagenes/fondo-flor.bmp"), Times New Roman);
+
+}
+
+.background-contacto{
+    @include background(url("../imagenes/fondo-flor2.bmp"), Times New Roman);
+
+}
+
+.background-biografia{
+    @include background(#ffdab9, Times New Roman);
+
+}
+
+.background-catalogo{
+    @include background(#ffdab9, Times New Roman);
 
 }

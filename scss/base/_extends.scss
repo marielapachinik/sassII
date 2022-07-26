@@ -1,5 +1,7 @@
-@mixin background-reseña ($image, $font) {
+@mixin background($bgcolor, $font) {
     font-family:$font;
-    background:$image;
+    background:$bgcolor;
 }
+
+
 

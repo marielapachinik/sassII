@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -69,12 +68,6 @@ footer .footer__lista {
       color: white;
       display: inline-block; }
 
-/* Fondo de html*/
-.body-index {
-  min-height: 50vh;
-  background-image: url("../imagenes/fondo.bmp");
-  font-family: 'Times New Roman', Times, serif; }
-
 /*Falso carrousel*/
 .falsocarrousel {
   width: 20%;
@@ -134,11 +127,6 @@ footer .footer__lista {
     display: none; } }
 
 /* Contenido html "Biografia" */
-.body-general {
-  background-color: peachpuff;
-  color: darkred;
-  font-family: 'Times New Roman', Times, serif; }
-
 .h1_biografia {
   font-size: x-large;
   margin-left: 2%;
@@ -245,10 +233,6 @@ footer .footer__lista {
   padding-bottom: 1.5%;
   align-items: flex-end; }
 
-.background-reseña {
-  background-image: url("../imagenes/flor-libro2.jpg");
-  font-family: 'Times New Roman', Times, serif; }
-
 /* Contenido html "De Ausencias" */
 .titulo__ausencias {
   float: left;
@@ -275,10 +259,6 @@ footer .footer__lista {
   padding-bottom: 6.5%;
   align-items: flex-end; }
 
-.background-reseña {
-  background-image: url("../imagenes/flor-libro2.jpg");
-  font-family: 'Times New Roman', Times, serif; }
-
 /*Contenido html "En Viaje" */
 .imagen_principal_viaje {
   float: left;
@@ -297,5 +277,21 @@ footer .footer__lista {
   align-items: flex-end; }
 
 .background-libro {
-  font-family: "Times New Roman";
-  background: "../imagenes/flor-libro2.jpg"; }
+  font-family: Times New Roman;
+  background: url("../imagenes/flor-libro2.jpg"); }
+
+.background-index {
+  font-family: Times New Roman;
+  background: url("../imagenes/fondo-flor.bmp"); }
+
+.background-contacto {
+  font-family: Times New Roman;
+  background: url("../imagenes/fondo-flor2.bmp"); }
+
+.background-biografia {
+  font-family: Times New Roman;
+  background: #ffdab9; }
+
+.background-catalogo {
+  font-family: Times New Roman;
+  background: #ffdab9; }
