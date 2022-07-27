@@ -7,23 +7,29 @@
         display:none;
     }
 
-   
-
 
     /* Acceso directo al libro mas leido */
 
     .imagen__libro{
         align-items: left;
-        margin-left: 20%;
+        margin-left: 25%;
         margin-top: 10%;
-        margin-bottom:10%;   
+        margin-bottom:2%;   
     }
+
+    .frase{
+        margin-top:-10%;
+        margin-bottom: 20%;
+    }
+
+    
 }   
+
 
 @media screen and (min-width:600px){
 
     .imagen__libro{
-        display:none
+        display:none;
     }
 
 
@@ -42,3 +48,6 @@
     }
     
 }
+
+    
+

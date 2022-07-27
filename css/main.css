@@ -74,7 +74,8 @@ footer .footer__lista {
   height: 300px;
   margin-top: 4%;
   margin-left: 8%;
-  margin-bottom: 4%;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
   align-items: center;
   background-image: url(../imagenes/mundos-posibles3.png);
   background-repeat: no-repeat;
@@ -110,6 +111,11 @@ footer .footer__lista {
   margin-left: 20%;
   margin-top: 7%;
   margin-bottom: 6.5%; }
+
+.frase {
+  margin-left: 1%;
+  margin-top: -1%;
+  margin-bottom: 1%; }
 
 /* Contenido html "Biografia" */
 .h1_biografia {
@@ -171,14 +177,13 @@ footer .footer__lista {
 
 .titulo__contacto {
   font-size: xx-large;
-  margin-top: 1.5%;
+  margin-top: 2%;
   margin-left: 2%;
-  margin-bottom: 1%; }
+  margin-bottom: 1.8%; }
 
 .formulario {
   width: fit-content !important;
-  margin-left: 2% !important;
-  margin-top: -0.2% !important; }
+  margin-left: 2% !important; }
 
 /* Contenido html "Mundos posibles" */
 * {
@@ -204,33 +209,31 @@ footer .footer__lista {
 .parrafo_mundos {
   font-size: large;
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 8.5%;
   margin-left: 3%;
-  padding-bottom: 1.5%;
   align-items: flex-end; }
 
 /* Contenido html "De Ausencias" */
 .titulo__ausencias {
   float: left;
-  margin-top: 12%;
+  margin-top: 10;
   margin-bottom: 1%;
-  margin-left: 3%;
-  padding-top: 2px;
-  align-items: flex-end; }
+  margin-left: 2%;
+  padding-top: 2px; }
 
 .imagen_principal_ausencias {
   float: left;
   padding-top: 2px;
-  padding-right: 20px;
+  padding-right: 10px;
   width: 240;
   height: 240;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-top: 1.5%; }
 
 .parrafo_ausencias {
   font-size: large;
   margin-top: 2%;
-  margin-bottom: 4%;
+  margin-bottom: 8.5%;
   margin-left: 3%;
   padding-bottom: 6.5%;
   align-items: flex-end; }
@@ -247,7 +250,7 @@ footer .footer__lista {
 .parrafo_viaje {
   font-size: large;
   margin-top: 2%;
-  margin-bottom: 4.5%;
+  margin-bottom: 8%;
   margin-left: 3%;
   padding-bottom: 5%;
   align-items: flex-end; }
@@ -279,9 +282,12 @@ footer .footer__lista {
   /* Acceso directo al libro mas leido */
   .imagen__libro {
     align-items: left;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 10%;
-    margin-bottom: 10%; } }
+    margin-bottom: 2%; }
+  .frase {
+    margin-top: -10%;
+    margin-bottom: 20%; } }
 
 @media screen and (min-width: 600px) {
   .imagen__libro {
