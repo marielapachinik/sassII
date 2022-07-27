@@ -115,7 +115,7 @@ footer .footer__lista {
 .frase {
   margin-left: 1%;
   margin-top: -1%;
-  margin-bottom: 1%; }
+  margin-bottom: 2%; }
 
 /* Contenido html "Biografia" */
 .h1_biografia {
@@ -236,7 +236,7 @@ footer .footer__lista {
   font-size: large;
   margin-top: 2%;
   margin-bottom: 8%;
-  margin-left: 3%;
+  margin-left: 5%;
   padding-bottom: 5%;
   align-items: flex-end; }
 
