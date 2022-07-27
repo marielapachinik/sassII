@@ -164,11 +164,6 @@ footer .footer__lista {
   border: none !important;
   font-family: 'Times New Roman', Times, serif; }
 
-/*Fondo de pagina Index y contacto */
-.background-index-contacto {
-  background-image: url("./imagenes/fondo.bmp");
-  font-family: 'Times New Roman', Times, serif; }
-
 /* Contenido html "Contacto" */
 .titulo__contacto {
   margin-top: 2%;

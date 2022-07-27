@@ -83,7 +83,7 @@ footer{
     
         margin: 0 auto;
         width: auto;
-        background-color: black;
+        background-color:map-get($colores, "color-terciario");
         list-style: none;
     
         /* contenedor flex */
