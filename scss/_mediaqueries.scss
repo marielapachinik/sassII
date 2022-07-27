@@ -32,13 +32,12 @@
         display:none;
     }
 
-
+ 
 }
 
 
 @media screen and (max-width:600px){
 
-   
     .lista__libros{
         width: auto;
         height: auto;
@@ -49,5 +48,16 @@
     
 }
 
+
+@media screen and(max-width:880px) {
+    .background-index{
+        background-image: url("../imagenes/flor-index.jpg");
+    }
+
+    .background-contacto{
+        background-image: url("../imagenes/flores-rojas.jpg");
+    }
+    
+}
     
 
