@@ -193,16 +193,15 @@ nav {
 .imagen_principal_mundos {
   float: left;
   padding-top: 3px;
-  padding-right: 20px;
   width: 240;
   height: 240;
-  margin-left: 3%; }
+  margin-left: 1%; }
 
 .parrafo_mundos {
   font-size: large;
   margin-top: 2%;
   margin-bottom: 7%;
-  margin-left: 3%;
+  margin-left: 1%;
   align-items: flex-end; }
 
 .imagen_principal_ausencias {
@@ -210,6 +209,7 @@ nav {
   padding-top: 2px;
   width: 240;
   height: 240;
+  margin-right: 1%;
   margin-left: 3%;
   margin-top: 1.5%; }
 
@@ -217,7 +217,7 @@ nav {
   font-size: large;
   margin-top: 2%;
   margin-bottom: 4.5%;
-  margin-left: 4%;
+  margin-left: 1%;
   padding-bottom: 6.5%;
   align-items: flex-end; }
 
