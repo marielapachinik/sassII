@@ -15,11 +15,11 @@ html{
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    color:black
+    color:map-get($colores, "color-terciario");
 }
 
 section{
-    color: black;
+    color: map-get($colores, "color-terciario");
     
 }
 
@@ -40,19 +40,20 @@ body{
 
 
 .navbar{
+    width: 100% !important;
     height: 60px !important;
-    border:solid 2px darkred !important;
-    background-color: black !important;
+    border:solid 3px map-get($colores, "color-secundario") !important;
+    background-color: map-get($colores, "color-terciario") !important;
 }
 
 .nav-item{
     font-size: x-large;
-    background-color: black !important;
+    background-color: map-get($colores, "color-terciario") !important;
     
 }
 
 .nav-link{
-    background-color: black !important;
+    background-color: map-get($colores, "color-terciario") !important;
 }
 
 span{
@@ -61,15 +62,15 @@ span{
 }
 
 .dropdown-item{
-    background-color: black !important;
+    background-color: map-get($colores, "color-terciario") !important;
     font-size: x-large;
-    color: white !important;
+    color: map-get($colores, "color-neutro") !important;
 }
 
 .dropdown{
     
 
-    background-color: black !important;
+    background-color:map-get($colores, "color-terciario") !important;
 }
 
 
@@ -94,7 +95,7 @@ footer{
     
         /* contenedor flex */
         height: 50px;
-        border: solid 3px darkred;
+        border: solid 3px map-get($colores, "color-secundario");
         display: flex;
         flex-direction: row;
         justify-content: space-around; /* direccionar la posicion el contenido */
@@ -107,7 +108,7 @@ footer{
             a{
                 text-decoration: none;
                 font-size: x-large;
-                color:white;
+                color:map-get($colores, "color-neutro");
                 display: inline-block;
         
             }

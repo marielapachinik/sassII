@@ -22,8 +22,9 @@ body {
 
 /* Encabezado */
 .navbar {
+  width: 100% !important;
   height: 60px !important;
-  border: solid 2px darkred !important;
+  border: solid 3px darkred !important;
   background-color: black !important; }
 
 .nav-item {
@@ -121,7 +122,6 @@ footer .footer__lista {
   margin-top: -1%;
   margin-bottom: 2%; }
 
-/* Contenido html "Biografia" */
 .h1_biografia {
   font-size: x-large;
   margin-left: 2%;
@@ -151,7 +151,6 @@ footer .footer__lista {
   margin-top: 2%;
   margin-bottom: 4%; }
 
-/* Contenido del html "Libros */
 .background-catalogo {
   z-index: 100000; }
 
@@ -161,9 +160,6 @@ header {
 nav {
   z-index: 100000 !important; }
 
-.containter {
-  z-index: 100000 !important; }
-
 .titulo__libros {
   font-size: x-large;
   text-align: center;
@@ -171,15 +167,14 @@ nav {
   margin-top: 1%;
   margin-bottom: 2%; }
 
-/* Card de Libros */
 .card {
   background-color: peachpuff !important;
+  margin-right: 2% !important;
   margin-top: -1.5% !important;
   margin-bottom: 8vh !important;
   border: none !important;
   font-family: 'Times New Roman', Times, serif; }
 
-/* Contenido html "Contacto" */
 .titulo__contacto {
   margin-top: 2%;
   margin-left: 5%;
@@ -194,11 +189,6 @@ nav {
 .formulario {
   width: fit-content !important;
   margin-left: 2% !important; }
-
-/* Contenido html "Mundos posibles" */
-* {
-  margin: 0;
-  padding: 0; }
 
 .imagen_principal_mundos {
   float: left;
@@ -215,25 +205,22 @@ nav {
   margin-left: 3%;
   align-items: flex-end; }
 
-/* Contenido html "De Ausencias" */
 .imagen_principal_ausencias {
   float: left;
   padding-top: 2px;
-  padding-right: 10px;
   width: 240;
   height: 240;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 1.5%; }
 
 .parrafo_ausencias {
   font-size: large;
   margin-top: 2%;
   margin-bottom: 4.5%;
-  margin-left: 8%;
+  margin-left: 4%;
   padding-bottom: 6.5%;
   align-items: flex-end; }
 
-/*Contenido html "En Viaje" */
 .imagen_principal_viaje {
   float: left;
   padding-top: 2%;
@@ -287,14 +274,6 @@ nav {
 @media screen and (min-width: 600px) {
   .imagen__libro {
     display: none; } }
-
-@media screen and (max-width: 600px) {
-  .lista__libros {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; } }
 
 @media screen and (max-width: 880px) {
   .background-index {
