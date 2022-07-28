@@ -13,8 +13,12 @@ h1 {
 section {
   color: black; }
 
+header {
+  z-index: 100000; }
+
 body {
-  min-height: 50vh; }
+  min-height: 50vh;
+  z-index: 100000; }
 
 /* Encabezado */
 .navbar {
@@ -148,6 +152,18 @@ footer .footer__lista {
   margin-bottom: 4%; }
 
 /* Contenido del html "Libros */
+.background-catalogo {
+  z-index: 100000; }
+
+header {
+  z-index: 100000; }
+
+nav {
+  z-index: 100000 !important; }
+
+.containter {
+  z-index: 100000 !important; }
+
 .titulo__libros {
   font-size: x-large;
   text-align: center;
@@ -158,7 +174,6 @@ footer .footer__lista {
 /* Card de Libros */
 .card {
   background-color: peachpuff !important;
-  z-index: initial;
   margin-top: -1.5% !important;
   margin-bottom: 8vh !important;
   border: none !important;

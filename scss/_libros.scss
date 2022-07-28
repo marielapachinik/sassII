@@ -1,6 +1,20 @@
 /* Contenido del html "Libros */
 
 
+.background-catalogo{
+    z-index: 100000;
+}
+
+header{
+    z-index: 100000;
+}
+
+nav{
+    z-index: 100000 !important;
+}
+.containter{
+    z-index: 100000 !important;
+}
 
 .titulo__libros{
     font-size: x-large;
@@ -16,8 +30,7 @@
 /* Card de Libros */
 
 .card{
-    background-color:map-get($colores, "color-principal") !important;
-    z-index:initial;
+    background-color: map-get($colores, "color-principal")!important;
     margin-top: -1.5% !important;
     margin-bottom: 8vh !important;
     border:none !important;

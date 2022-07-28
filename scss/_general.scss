@@ -20,12 +20,18 @@ h1{
 
 section{
     color: black;
+    
 }
 
+
+header{
+    z-index: 100000;
+}
 
 
 body{
     min-height: 50vh;
+    z-index: 100000;
     
 }
 
