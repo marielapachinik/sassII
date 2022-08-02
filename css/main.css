@@ -243,7 +243,8 @@ nav {
 
 .background-index {
   font-family: Times New Roman;
-  background: url("../imagenes/fondo-flor.bmp"); }
+  background: url("../imagenes/fondo-flor.bmp");
+  background-repeat: no-repeat; }
 
 .background-contacto {
   font-family: Times New Roman;
@@ -259,6 +260,8 @@ nav {
 
 /* Media queries */
 @media screen and (max-width: 600px) {
+  .img_logo_grande {
+    display: none; }
   .falsocarrousel {
     display: none; }
   /* Acceso directo al libro mas leido */
@@ -280,3 +283,22 @@ nav {
     background-image: url("../imagenes/flor-index.jpg"); }
   .background-contacto {
     background-image: url("../imagenes/flores-rojas.jpg"); } }
+
+@media screen and (max-width: 1919px) {
+  .img_logo_grande {
+    display: none; } }
+
+@media screen and (min-width: 1920px) {
+  .img_logo {
+    display: none; }
+  .img_logo_grande {
+    text-align: center; }
+  .background-index {
+    background-image: url("../imagenes/fondo-flor-pc-xxl.bmp"); }
+  .falsocarrousel {
+    width: 40%;
+    height: 500px; }
+  .frase {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: xx-large; } }
