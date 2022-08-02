@@ -2,6 +2,7 @@
 
 .background-libro{
     @include background(url("../imagenes/flor-libro2.jpg"), Times New Roman);
+    background-repeat: no-repeat;
     
 
 }
@@ -14,6 +15,7 @@
 
 .background-contacto{
     @include background(url("../imagenes/fondo-flor2.bmp"), Times New Roman);
+    background-repeat: no-repeat;
    
 
 }

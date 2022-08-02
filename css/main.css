@@ -243,7 +243,8 @@ nav {
 
 .background-libro {
   font-family: Times New Roman;
-  background: url("../imagenes/flor-libro2.jpg"); }
+  background: url("../imagenes/flor-libro2.jpg");
+  background-repeat: no-repeat; }
 
 .background-index {
   font-family: Times New Roman;
@@ -252,7 +253,8 @@ nav {
 
 .background-contacto {
   font-family: Times New Roman;
-  background: url("../imagenes/fondo-flor2.bmp"); }
+  background: url("../imagenes/fondo-flor2.bmp");
+  background-repeat: no-repeat; }
 
 .background-biografia {
   font-family: Times New Roman;
