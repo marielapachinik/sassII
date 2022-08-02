@@ -3,12 +3,6 @@
 
 @media screen and (max-width:600px){
 
-
-    .img_logo_grande{
-        display: none;
-
-    }
-
     .falsocarrousel{
         display:none;
     }
@@ -34,8 +28,6 @@
 
 @media screen and (min-width:600px){
 
-   
-
     .imagen__libro{
         display:none;
     }
@@ -47,25 +39,14 @@
 
 
 @media screen and(max-width:880px) {
-
-    
-
     .background-index{
         background-image: url("../imagenes/flor-index.jpg");
+        background-repeat: no-repeat;
     }
 
     .background-contacto{
         background-image: url("../imagenes/flores-rojas.jpg");
-    }
-    
-}
-
-
-
-@media screen  and (max-width:1919px){
-
-    .img_logo_grande{
-        display:none;
+        background-repeat: no-repeat;
     }
     
 }
@@ -77,27 +58,10 @@
     }
 
 
-    .img_logo_grande{
-        text-align: center;
-    }
-
-
     .background-index{
-        background-image: url("../imagenes/fondo-flor-pc-xxl.bmp");
+        background-image: url("../imagenes/fondo-flor-pc.bmp");
+        background-repeat: no-repeat;
 
-    }
-
-
-
-    .falsocarrousel{
-        width: 40%;
-        height:500px;
-    }
-
-    .frase{
-        margin-top: 2%;
-        margin-bottom: 3%;
-        font-size: xx-large;
     }
 
 }

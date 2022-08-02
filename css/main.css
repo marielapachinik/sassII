@@ -195,13 +195,17 @@ nav {
   padding-top: 3px;
   width: 240;
   height: 240;
-  margin-left: 1%; }
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.titulo_mundos {
+  margin-top: 2%; }
 
 .parrafo_mundos {
   font-size: large;
   margin-top: 2%;
   margin-bottom: 7%;
-  margin-left: 1%;
+  margin-left: 2%;
   align-items: flex-end; }
 
 .imagen_principal_ausencias {
@@ -260,8 +264,6 @@ nav {
 
 /* Media queries */
 @media screen and (max-width: 600px) {
-  .img_logo_grande {
-    display: none; }
   .falsocarrousel {
     display: none; }
   /* Acceso directo al libro mas leido */
@@ -280,25 +282,15 @@ nav {
 
 @media screen and (max-width: 880px) {
   .background-index {
-    background-image: url("../imagenes/flor-index.jpg"); }
+    background-image: url("../imagenes/flor-index.jpg");
+    background-repeat: no-repeat; }
   .background-contacto {
-    background-image: url("../imagenes/flores-rojas.jpg"); } }
-
-@media screen and (max-width: 1919px) {
-  .img_logo_grande {
-    display: none; } }
+    background-image: url("../imagenes/flores-rojas.jpg");
+    background-repeat: no-repeat; } }
 
 @media screen and (min-width: 1920px) {
   .img_logo {
     display: none; }
-  .img_logo_grande {
-    text-align: center; }
   .background-index {
-    background-image: url("../imagenes/fondo-flor-pc-xxl.bmp"); }
-  .falsocarrousel {
-    width: 40%;
-    height: 500px; }
-  .frase {
-    margin-top: 2%;
-    margin-bottom: 3%;
-    font-size: xx-large; } }
+    background-image: url("../imagenes/fondo-flor-pc.bmp");
+    background-repeat: no-repeat; } }
