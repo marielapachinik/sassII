@@ -171,7 +171,7 @@ nav {
   background-color: peachpuff !important;
   margin-right: 2% !important;
   margin-top: -1.5% !important;
-  margin-bottom: 8vh !important;
+  margin-bottom: 5vh !important;
   border: none !important;
   font-family: 'Times New Roman', Times, serif; }
 
@@ -208,6 +208,9 @@ nav {
   margin-left: 2%;
   align-items: flex-end; }
 
+.titulo_ausencias {
+  margin-top: 2%; }
+
 .imagen_principal_ausencias {
   float: left;
   padding-top: 2px;
@@ -215,7 +218,7 @@ nav {
   height: 240;
   margin-right: 1%;
   margin-left: 3%;
-  margin-top: 1.5%; }
+  margin-top: 2%; }
 
 .parrafo_ausencias {
   font-size: large;
@@ -248,12 +251,12 @@ nav {
 
 .background-index {
   font-family: Times New Roman;
-  background: url("../imagenes/fondo-flor.bmp");
+  background: url("../imagenes/fondo-flor.jpg");
   background-repeat: no-repeat; }
 
 .background-contacto {
   font-family: Times New Roman;
-  background: url("../imagenes/fondo-flor2.bmp");
+  background: url("../imagenes/fondo-flor2.jpg");
   background-repeat: no-repeat; }
 
 .background-biografia {

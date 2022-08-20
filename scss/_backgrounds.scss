@@ -8,13 +8,13 @@
 }
 
 .background-index{
-    @include background(url("../imagenes/fondo-flor.bmp"), Times New Roman);
+    @include background(url("../imagenes/fondo-flor.jpg"), Times New Roman);
     background-repeat: no-repeat;
 
 }
 
 .background-contacto{
-    @include background(url("../imagenes/fondo-flor2.bmp"), Times New Roman);
+    @include background(url("../imagenes/fondo-flor2.jpg"), Times New Roman);
     background-repeat: no-repeat;
    
 
