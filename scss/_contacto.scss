@@ -2,19 +2,15 @@
 
 
 
-.titulo__contacto{
-    margin-top: 2%;
-    margin-left:5%;
-    margin-bottom: 2%;
-}
+
 
 
 
 .titulo__contacto{
     font-size: xx-large;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left:2%;
-    margin-bottom: 1.8%;
+    margin-bottom: 2%;
 }
 
 
@@ -24,5 +20,35 @@
 
 }
 
+
+.footer2__lista{
+
+    margin: 0 auto;
+    width: auto;
+    background-color:map-get($colores, "color-terciario");
+    list-style: none;
+
+    /* contenedor flex */
+    height: 50px;
+    border: solid 3px map-get($colores, "color-secundario");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* direccionar la posicion el contenido */
+    align-items: center;
+
+    &__lista__item{
+        margin-left: 2%;
+        font-size: x-large; 
+
+        a{
+            text-decoration: none;
+            font-size: x-large;
+            color:map-get($colores, "color-neutro");
+            display: inline-block;
+    
+        }
+    }
+    
+}
 
 

@@ -176,19 +176,36 @@ nav {
   font-family: 'Times New Roman', Times, serif; }
 
 .titulo__contacto {
-  margin-top: 2%;
-  margin-left: 5%;
-  margin-bottom: 2%; }
-
-.titulo__contacto {
   font-size: xx-large;
-  margin-top: 2%;
+  margin-top: 4%;
   margin-left: 2%;
-  margin-bottom: 1.8%; }
+  margin-bottom: 2%; }
 
 .formulario {
   width: fit-content !important;
   margin-left: 2% !important; }
+
+.footer2__lista {
+  margin: 0 auto;
+  width: auto;
+  background-color: black;
+  list-style: none;
+  /* contenedor flex */
+  height: 50px;
+  border: solid 3px darkred;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* direccionar la posicion el contenido */
+  align-items: center; }
+  .footer2__lista__lista__item {
+    margin-left: 2%;
+    font-size: x-large; }
+    .footer2__lista__lista__item a {
+      text-decoration: none;
+      font-size: x-large;
+      color: white;
+      display: inline-block; }
 
 .imagen_principal_mundos {
   float: left;
@@ -281,7 +298,12 @@ nav {
     margin-bottom: 4%; }
   .frase {
     margin-top: -10%;
-    margin-bottom: 29%; } }
+    margin-bottom: 29%; }
+  .titulo__contacto {
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  .footer2__lista {
+    margin-top: 25%; } }
 
 @media screen and (min-width: 600px) {
   .imagen__libro {
