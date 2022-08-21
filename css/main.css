@@ -271,12 +271,14 @@ nav {
 @media screen and (max-width: 600px) {
   .falsocarrousel {
     display: none; }
+  .footer__lista {
+    margin-top: 15%; }
   /* Acceso directo al libro mas leido */
   .imagen__libro {
     align-items: left;
     margin-left: 25%;
-    margin-top: 10%;
-    margin-bottom: 2%; }
+    margin-top: 15%;
+    margin-bottom: 4%; }
   .frase {
     margin-top: -10%;
     margin-bottom: 20%; } }
